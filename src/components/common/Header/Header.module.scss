@@ -1,0 +1,14 @@
+@import "../../../scss/_variables.scss";
+
+.header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > button {
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+    }
+}
